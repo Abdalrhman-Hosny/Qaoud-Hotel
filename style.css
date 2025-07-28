@@ -59,6 +59,10 @@ input[type=number] {
     transform: scale(1.03);
     transition: all 0.4s;
 }
+/* about us page */
+.box {
+    border-top-color: var(--teal) !important;
+}
 
 /* media screen */
 @media screen and (max-width: 578px) {

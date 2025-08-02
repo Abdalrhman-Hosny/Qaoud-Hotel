@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Poppins' , sans-serif;
+}
+:root {
+    --teal: #2ec1ac;
+    --teal_hover: #279e8c;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.h-font {
+    font-family: 'Merienda' , sans-serif;
+}
+/* hide input type number arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+/* swipper style */
+.swiper {
+    width: 100%;
+}
+.swiper-slide img {
+    height: 100%;
+    object-fit: cover;
+}
+/* check avalability form */
+.avalability-form {
+    position: relative;
+    margin-top: -50px;
+    z-index: 2;
+}
+.custom-bg {
+    background-color: var(--teal);
+    border: 1px solid var(--teal);
+}
+.custom-bg:hover {
+    background-color: var(--teal_hover);
+    border-color: var(--teal_hover);
+}
+
+/* facilities page */
+.h-line {
+    width: 150px;
+    height: 1.7px;
+    margin: 0 auto;
+}
+.pop:hover {
+    border-top-color: var(--teal) !important;
+    transform: scale(1.03);
+    transition: all 0.4s;
+}
+/* about us page */
+.box {
+    border-top-color: var(--teal) !important;
+}
+
+/* contact us page */
+.hover-underline:hover {
+    text-decoration: underline !important;
+}
+
+/* media screen */
+@media screen and (max-width: 578px) {
+    .avalability-form {
+        margin-top: 25px;
+        padding: 0 35px;
+    }   
+}
+

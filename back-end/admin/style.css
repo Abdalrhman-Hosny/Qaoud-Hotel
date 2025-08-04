@@ -33,6 +33,7 @@ div.login-form {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 400px; 
 }
 .custom-bg {
     background-color: var(--teal);

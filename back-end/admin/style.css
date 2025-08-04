@@ -27,7 +27,6 @@ input[type=number] {
 }
 
 /* admin page file */
-
 div.login-form {
     position: absolute;
     top: 50%;
@@ -49,12 +48,21 @@ div.login-form {
     right: 25px;
 }
 
+/* dashboard page file */
+#dashboard-menu {
+    position: fixed;
+    height: 100%;
+}
 
-/* media screen */
-@media screen and (max-width: 578px) {
-    .avalability-form {
-        margin-top: 25px;
-        padding: 0 35px;
-    }   
+
+/* media screen for dashboard page */
+@media screen and (max-width: 991px) {
+    #dashboard-menu {
+        height: auto;
+        width: 100%;
+    }
+    #main-content {
+        margin-top: 60px;
+    }
 }
 
